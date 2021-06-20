@@ -1,0 +1,488 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Bodoni Moda" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&display=swap" />
+
+    <mj-style>
+      @import url("https://p.typekit.net/p.css?s=1&k=jej0nju&ht=tk&f=24539.24547&a=33526715&app=typekit&e=css");
+
+      @font-face {
+        font-family: "sofia-pro";
+        src: url("https://use.typekit.net/af/09d302/00000000000000007735a14e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/09d302/00000000000000007735a14e/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/09d302/00000000000000007735a14e/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+        font-display: auto;
+        font-style: normal;
+        font-weight: 700;
+      }
+
+      @font-face {
+        font-family: "sofia-pro";
+        src: url("https://use.typekit.net/af/5e6988/00000000000000007735a163/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/5e6988/00000000000000007735a163/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/5e6988/00000000000000007735a163/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+        font-display: auto;
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      .arrow-right::before {
+        content: '';
+        display: inline-block;
+        height: 9px;
+        width: 13px;
+        background-image: url('./assets/img/arrow_blue.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+
+      }
+
+      .arrow-right.white::before {
+        background-image: url('./assets/img/arrow_white.svg');
+        margin-left: 10px;
+      }
+
+      .arrow-right.white.nomarg::before {
+        margin-left: 0px;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#F2F2F2" width="600px">
+    <mj-section background-color="#001689" padding="0">
+      <mj-column>
+
+        <mj-image width="560px" src="./assets/img/Header_NL_generique.png" padding="0"></mj-image>
+
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFF" text-align="left" padding="40px 0">
+      <mj-column width="160px">
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase">Édito</mj-text>
+
+      </mj-column>
+
+      <mj-column width="430px">
+
+        <mj-text font-size="20px" color="#001689" font-family="Bodoni Moda, Playfair Display" font-weight="700" line-height="28px" padding="0" padding-bottom="15px">“ Chaque jour est une nouvelle page que l’on ouvre ”</mj-text>
+
+        <mj-text font-size="14px" color="#000" font-family="sofia-pro, Lato" font-weight="500" line-height="20px" padding="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </mj-text>
+
+      </mj-column>
+      <mj-column width="100%" padding="40px 0">
+
+        <mj-divider border-width="1px" border-style="solid" border-color="#F2F2F2" padding="0 20px" />
+
+      </mj-column>
+
+      <mj-column width="160px">
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase">Découvrir</mj-text>
+
+      </mj-column>
+
+      <mj-column width="137px">
+
+        <mj-image width="91px" height="91px" src="./assets/img/Jack_lang.png" padding="0" border-radius="200px" align="left"></mj-image>
+
+      </mj-column>
+
+      <mj-column width="293px">
+
+        <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 20px 15px 0">
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Litterature</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Second tag</span>
+        </mj-text>
+
+        <mj-text font-size="16px" color="#000" font-family="sofia-pro, Lato" font-weight="600" line-height="22px" padding="0 20px 15px 0">
+          Jack Lang et la culture.
+        </mj-text>
+
+        <mj-text font-size="14px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="20px" padding="0 20px 15px 0">
+          40 ans après l’élection de François Mitterrand, la politique menée par Jack Lang en demeure l'une des marques les plus fortes. Nous vous proposons une rencontre entre Jack Lang et Frédéric Martel le mardi 15 juin à 18h à l'occasion de la parution aux éditions Bouquins du passionnant volume.
+        </mj-text>
+
+        <mj-button font-family="sofia-pro, Lato" color="#001689" background-color="transparent" align="left" inner-padding="0" padding="0" font-size="16px" text-decoration="underline" href="">
+          En savoir plus &#8594;
+        </mj-button>
+
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFF" text-align="left" padding="40px 0">
+      <mj-column width="160px">
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase">Coups de ❤️</mj-text>
+
+      </mj-column>
+
+      <mj-column width="183px">
+
+        <mj-image width="183px" height="271px" src="./assets/img/GeorgeSand.png" padding="0" align="left"></mj-image>
+
+        <mj-text font-size="16px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0" padding-top="13px">George Sand, Fille du siècle</mj-text>
+
+        <mj-text font-size="12px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="14px" padding="8px 0 11px">Séverine Vidal</mj-text>
+
+        <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 11px">
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Litterature</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Second tag</span>
+        </mj-text>
+
+        <mj-text font-size="20px" color="#001689" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 15px">25,50 €</mj-text>
+
+        <mj-button font-family="sofia-pro, Lato" color="#FFF" width="100%" background-color="#001689" padding="0" font-size="14px" font-weight="700" border-radius="0" href="">
+          Découvrir <i class="arrow-right white"></i>
+        </mj-button>
+
+      </mj-column>
+
+      <mj-column width="46px">
+
+      </mj-column>
+
+      <mj-column width="183px">
+
+        <mj-image width="183px" height="271px" src="./assets/img/caseycep.png" padding="0" align="left"></mj-image>
+
+        <mj-text font-size="16px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0" padding-top="13px">Les heures furieuses</mj-text>
+
+        <mj-text font-size="12px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="14px" padding="8px 0 11px">Casey Cep</mj-text>
+
+        <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 11px">
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Histoire</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Second tag</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Jeunesse</span>
+        </mj-text>
+
+        <mj-text font-size="20px" color="#001689" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 15px">22,00 €</mj-text>
+
+        <mj-button font-family="sofia-pro, Lato" color="#FFF" width="100%" background-color="#001689" padding="0" font-size="14px" font-weight="700" border-radius="0" href="">
+          Découvrir <i class="arrow-right white"></i>
+        </mj-button>
+
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#FFF" text-align="left" padding="40px 0">
+      <mj-column width="160px">
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase">Dernières sorties</mj-text>
+
+      </mj-column>
+
+      <mj-column width="412px">
+
+        <mj-table padding="0">
+
+          <tr style="border-bottom: 1px solid #F2F2F2;">
+            <td style="width: 137px; vertical-align:top;">
+              <img src="./assets/img/Bridgerton.png" alt="Brigerton" style="height: 202px; width: 137px;">
+            </td>
+            <td style="padding: 0 0 0 20px;">
+              <div style="font-family: 'sofia-pro', Lato; font-size: 18px; line-height: 20px; font-weight: 600; margin-bottom: 6px;">
+                La chronique des bridgertons
+              </div>
+              <div style="font-family: 'sofia-pro', Lato; font-size: 12px; line-height: 18px; font-weight: 400; margin-bottom: 11px;">
+                Julia Quinn
+              </div>
+              <div style="font-family: 'sofia-pro', Lato; font-size: 12px; line-height: 20px; font-weight: 700; margin-bottom: 11px; color: #FFF">
+                <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Litterature</span>
+                <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Second
+                  tag</span>
+              </div>
+              <div style="font-family: 'sofia-pro', Lato; font-size: 14px; line-height: 21px; font-weight: 400; margin-bottom: 20px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+              </div>
+              <div style="clear: both;">
+                <div style="float: left; font-family: 'sofia-pro', Lato; color: #001689; font-size: 20px; line-height: 23px; font-weight: 700; margin-bottom: 20px;">
+                  18,80€
+                </div>
+                <div style="float: right; font-family: 'sofia-pro', Lato; color: #001689; font-size: 20px; line-height: 23px; font-weight: 700; margin-bottom: 20px;">
+                  <a href="" style="display: inline-block; background-color: #001689; text-align: center; width: 35px; height: 32px; line-height: 25px;">
+                    <i class="arrow-right white nomarg"></i>
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr style="border-bottom: 1px solid #F2F2F2;">
+            <td style="width: 137px; vertical-align:top; padding: 15px 0 0 0;">
+              <img src="./assets/img/la_plus_que_vraie.png" alt="Brigerton" style="height: 202px; width: 137px;">
+            </td>
+            <td style="padding: 15px 0 0 20px;">
+              <div style="font-family: 'sofia-pro', Lato; font-size: 18px; line-height: 20px; font-weight: 600; margin-bottom: 6px;">
+                La plus que vraie
+              </div>
+              <div style="font-family: 'sofia-pro', Lato; font-size: 12px; line-height: 18px; font-weight: 400; margin-bottom: 11px;">
+                Alexandre Jardin
+              </div>
+              <div style="font-family: 'sofia-pro', Lato; font-size: 12px; line-height: 20px; font-weight: 700; margin-bottom: 11px; color: #FFF">
+                <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Litterature</span>
+                <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Romance</span>
+              </div>
+              <div style="font-family: 'sofia-pro', Lato; font-size: 14px; line-height: 21px; font-weight: 400; margin-bottom: 20px;">
+                Romancier, Frédéric Sauvage invente des histoires d'amour aux personnages imprévisibles. Mais son existence reste morne jusqu'à ce qu'il rencontre Alice, qui est bien décidée à lui faire vivre la romance qu'il mérite.
+              </div>
+              <div style="clear: both;">
+                <div style="float: left; font-family: 'sofia-pro', Lato; color: #001689; font-size: 20px; line-height: 23px; font-weight: 700; margin-bottom: 20px;">
+                  19,90€
+                </div>
+                <div style="float: right; font-family: 'sofia-pro', Lato; color: #001689; font-size: 20px; line-height: 23px; font-weight: 700; margin-bottom: 20px;">
+                  <a href="" style="display: inline-block; background-color: #001689; text-align: center; width: 35px; height: 32px; line-height: 25px;">
+                    <i class="arrow-right white nomarg"></i>
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="width: 137px; vertical-align:top; padding: 15px 0 0 0;">
+              <img src="./assets/img/vivre_avec_nos_morts.png" alt="Brigerton" style="height: 202px; width: 137px;">
+            </td>
+            <td style="padding: 15px 0 0 20px;">
+              <div style="font-family: 'sofia-pro', Lato; font-size: 18px; line-height: 20px; font-weight: 600; margin-bottom: 6px;">
+                Vivre avec nos morts : petit traité de consolation
+              </div>
+              <div style="font-family: 'sofia-pro', Lato; font-size: 12px; line-height: 18px; font-weight: 400; margin-bottom: 11px;">
+                Delphine Horvilleur
+              </div>
+              <div style="font-family: 'sofia-pro', Lato; font-size: 12px; line-height: 20px; font-weight: 700; margin-bottom: 11px; color: #FFF">
+                <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Deuil</span>
+                <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Judaïsme</span>
+              </div>
+              <div style="font-family: 'sofia-pro', Lato; font-size: 14px; line-height: 21px; font-weight: 400; margin-bottom: 20px;">
+                Delphine Horvilleur signe ici un livre magnifique sur le deuil et la mort entre "conte, exégèse et confession".
+              </div>
+              <div style="clear: both;">
+                <div style="float: left; font-family: 'sofia-pro', Lato; color: #001689; font-size: 20px; line-height: 23px; font-weight: 700; margin-bottom: 20px;">
+                  18,80€
+                </div>
+                <div style="float: right; font-family: 'sofia-pro', Lato; color: #001689; font-size: 20px; line-height: 23px; font-weight: 700; margin-bottom: 20px;">
+                  <a href="" style="display: inline-block; background-color: #001689; text-align: center; width: 35px; height: 32px; line-height: 25px;">
+                    <i class="arrow-right white nomarg"></i>
+                  </a>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#001689" text-align="left" padding="40px 0">
+      <mj-column width="160px">
+
+        <mj-text font-size="18px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase">VIDÉOS ET PODCASTS</mj-text>
+
+      </mj-column>
+
+      <mj-column width="412px">
+
+        <mj-image src="./assets/img/Video_1.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
+
+        <mj-text font-size="18px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="20px 0 15px">Guillaume Meurice | Le roi n’avait pas ri</mj-text>
+
+        <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 9px">
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Humour</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Histoire</span>
+        </mj-text>
+
+        <mj-text font-size="14px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0">Guillaume Meurice nous présente son ouvrage “le roi n’avait pas ri” aux éditions Lattes avec Marine Chambon.</mj-text>
+
+        <mj-divider border-width="1px" border-style="solid" border-color="#F2F2F2" padding="40px 0" />
+
+        <mj-image src="./assets/img/Video_2.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
+
+        <mj-text font-size="18px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="20px 0 15px">Guillaume Meurice | Le roi n’avait pas ri</mj-text>
+
+        <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 9px">
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Humour</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Histoire</span>
+        </mj-text>
+
+        <mj-text font-size="14px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0">Guillaume Meurice nous présente son ouvrage “le roi n’avait pas ri” aux éditions Lattes avec Marine Chambon.</mj-text>
+
+      </mj-column>
+
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFF" text-align="left" padding="40px 0">
+      <mj-column width="160px">
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase">Les dossiers</mj-text>
+
+      </mj-column>
+
+      <mj-column width="412px">
+
+        <mj-image src="./assets/img/book.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
+
+        <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="20px 0 9px">
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Littérature</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Second tag</span>
+        </mj-text>
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 15px">Nos envies pour 2021</mj-text>
+
+        <mj-text font-size="14px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0">Lectures, découvertes, anniversaires et surprises ! L'année qui s'ouvre est l'occasion de partager nos envies de lecture et de culture. Qu'il s'agisse de voyager avec Corto Maltese ou Méliès, de redécouvrir Flaubert ou Baudelaire, de se plonger dans la passionnante histoire de l'écriture il y a mille façons de se réjouir des moments à venir. Très bonne lecture.</mj-text>
+
+        <mj-button font-family="sofia-pro, Lato" color="#001689" background-color="transparent" align="left" inner-padding="0" padding="13px 0 0" font-size="16px" text-decoration="underline" href="">
+          En savoir plus &#8594;
+        </mj-button>
+
+        <mj-divider border-width="1px" border-style="solid" border-color="#F2F2F2" padding="40px 0" />
+
+        <mj-image src="./assets/img/reading.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
+
+        <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="20px 0 9px">
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Bande déssinées</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">BD</span>
+        </mj-text>
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 15px">Un été sous le signe de la BD !</mj-text>
+
+        <mj-text font-size="14px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0">Un petit panel du choix de vos libraires BD pour accompagner votre été de lecture !</mj-text>
+
+        <mj-button font-family="sofia-pro, Lato" color="#001689" background-color="transparent" align="left" inner-padding="0" padding="13px 0 0" font-size="16px" text-decoration="underline" href="">
+          En savoir plus &#8594;
+        </mj-button>
+
+      </mj-column>
+
+    </mj-section>
+
+
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFF" text-align="left" padding="40px 0">
+      <mj-column width="160px">
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" padding-right="0" text-transform="uppercase">Prochains événements</mj-text>
+
+      </mj-column>
+
+      <mj-column width="412px">
+
+        <mj-image src="./assets/img/laprincesseaupetitmoi.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
+
+        <mj-text font-size="12px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="14px" padding="11px 0 5px">
+          <span style="font-weight: 800; text-transform: uppercase; color: #28B89F">
+            10 mai
+          </span>
+          | Station Ausone
+        </mj-text>
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 10px">La prinesse au petit moi, Jean-Christophe Rufin</mj-text>
+
+        <mj-text font-size="14px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0 0 35px">L’auteur vous présente son ouvrage “La princesse au petit moi” aux éditions Flammarion.</mj-text>
+
+        <mj-text font-size="12px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="14px" padding="11px 0 5px">
+          <span style="font-weight: 800; text-transform: uppercase; color: #28B89F">
+            17 juin
+          </span>
+          | Station Ausone
+        </mj-text>
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 10px">Dédicasse d’Olivier Doyle</mj-text>
+
+        <mj-text font-size="14px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0 0 35px">Venez rencontrer l'illustrateur Olivier Deloye lors d'une séance de dédicace de la bande dessinée "O Verlaine !" parue aux éditions Steinkis.</mj-text>
+
+        <mj-text font-size="12px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="14px" padding="11px 0 5px">
+          <span style="font-weight: 800; text-transform: uppercase; color: #28B89F">
+            04 juil
+          </span>
+          | Visio conférence0
+        </mj-text>
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 10px">Evénement en ligne avec Phillipe Dessertine</mj-text>
+
+        <mj-text font-size="14px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0 0 35px">Assistez à la rencontre en ligne avec Philippe Dessertine autour de son ouvrage "Le grand basculement" paru aux éditions Robert Laffont.</mj-text>
+
+        <mj-text font-size="12px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="14px" padding="11px 0 5px">
+          <span style="font-weight: 800; text-transform: uppercase; color: #28B89F">
+            10 juil
+          </span>
+          | Magasin Mollat
+        </mj-text>
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 10px">Rencontre avec Phillipe Geluck</mj-text>
+
+        <mj-text font-size="14px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0 0 35px">Venez rencontrer Philippe Geluck autour de sa dernière bande dessinée "Le Chat déambule" aux éditions Casterman BD.</mj-text>
+
+        <mj-button font-family="sofia-pro, Lato" color="#FFF" width="230px" background-color="#001689" padding="0"  inner-padding="10px 20px" align="left" font-size="14px" line-height="21px" font-weight="700" border-radius="0" href="">
+          Consulter notre agenda <i class="arrow-right white"></i>
+        </mj-button>
+
+      </mj-column>
+
+    </mj-section>
+
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#272727" text-align="left" padding="40px 40px 20px">
+      <mj-column width="91px">
+
+        <mj-image src="./assets/img/Logo_mollat.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
+
+      </mj-column>
+
+      <mj-column width="429px" vertical-align="bottom">
+
+        <mj-text font-size="11px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" align="right" line-height="17px" padding="0">
+          <span>
+            <a>
+              
+            </a>
+          </span>
+        </mj-text>
+
+        <mj-text font-size="11px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" align="right" line-height="17px" padding="0">Copyright © 2021 - Mollat, tous droits réservés</mj-text>
+
+      </mj-column>
+
+      <mj-column width="100%">
+
+        <mj-divider border-width="1px" border-style="solid" border-color="rgba(255, 255, 255, 0.4)" padding="40px 0 15px" />
+
+        <mj-text font-size="11px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" align="center" line-height="17px" padding="0">Copyright © 2021 - Mollat, tous droits réservés</mj-text>
+
+      </mj-column>
+
+
+    </mj-section>
+  </mj-body>
+</mjml>
