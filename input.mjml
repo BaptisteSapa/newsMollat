@@ -43,6 +43,44 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#F2F2F2" width="600px">
+    <mj-section background-color="#FFF" padding="0">
+      <mj-column>
+
+        <mj-text font-size="12px" color="#001689" font-family="sofia-pro, Lato" font-weight="700" text-transform="uppercase" align="center" line-height="17px" padding="18px 0 18px">
+          <span>
+            <a class="soundcloud" href="#" style="color: #001689; text-decoration: none; margin-right: 22px">
+              Découvrir
+            </a>
+          </span>
+          <span>
+            <a class="facebook" href="#" style="color: #001689; text-decoration: none; margin-right: 22px">
+              Coups de ❤️
+            </a>
+          </span>
+          <span>
+            <a class="youtube" href="#" style="color: #001689; text-decoration: none; margin-right: 22px">
+              Dernières sorties
+            </a>
+          </span>
+          <span>
+            <a class="twitter" href="#" style="color: #001689; text-decoration: none; margin-right: 22px">
+              Dossiers
+            </a>
+          </span>
+          <span>
+            <a class="instagram" href="#" style="color: #001689; text-decoration: none; margin-right: 22px;">
+              ÉVÈNEMENTS
+            </a>
+          </span>
+          <span>
+            <a class="instagram" href="#" style="color: #001689; text-decoration: none;">
+              Vidéo
+            </a>
+          </span>
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
     <mj-section background-color="#001689" padding="0">
       <mj-column>
 
@@ -420,7 +458,7 @@
           <span style="font-weight: 800; text-transform: uppercase; color: #28B89F">
             04 juil
           </span>
-          | Visio conférence0
+          | Visio conférence
         </mj-text>
 
         <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 10px">Evénement en ligne avec Phillipe Dessertine</mj-text>
@@ -438,7 +476,7 @@
 
         <mj-text font-size="14px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0 0 35px">Venez rencontrer Philippe Geluck autour de sa dernière bande dessinée "Le Chat déambule" aux éditions Casterman BD.</mj-text>
 
-        <mj-button font-family="sofia-pro, Lato" color="#FFF" width="230px" background-color="#001689" padding="0"  inner-padding="10px 20px" align="left" font-size="14px" line-height="21px" font-weight="700" border-radius="0" href="">
+        <mj-button font-family="sofia-pro, Lato" color="#FFF" width="230px" background-color="#001689" padding="0" inner-padding="10px 20px" align="left" font-size="14px" line-height="21px" font-weight="700" border-radius="0" href="">
           Consulter notre agenda <i class="arrow-right white"></i>
         </mj-button>
 
@@ -462,10 +500,30 @@
 
       <mj-column width="429px" vertical-align="bottom">
 
-        <mj-text font-size="11px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" align="right" line-height="17px" padding="0">
+        <mj-text font-size="11px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" align="right" line-height="17px" padding="0 0 5px">
           <span>
-            <a>
-              
+            <a class="soundcloud" href="#" style="text-decoration: none; margin-right: 17px">
+              <img src="./assets/img/soundcloud.png" alt="Logo Soundcloud" />
+            </a>
+          </span>
+          <span>
+            <a class="facebook" href="#" style="text-decoration: none; margin-right: 17px">
+              <img src="./assets/img/facebook.png" alt="Logo Soundcloud" />
+            </a>
+          </span>
+          <span>
+            <a class="youtube" href="#" style="text-decoration: none; margin-right: 17px">
+              <img src="./assets/img/youtube.png" alt="Logo Soundcloud" />
+            </a>
+          </span>
+          <span>
+            <a class="twitter" href="#" style="text-decoration: none; margin-right: 17px">
+              <img src="./assets/img/twitter.png" alt="Logo Soundcloud" />
+            </a>
+          </span>
+          <span>
+            <a class="instagram" href="#" style="text-decoration: none;">
+              <img src="./assets/img/instagram.png" alt="Logo Soundcloud" />
             </a>
           </span>
         </mj-text>
