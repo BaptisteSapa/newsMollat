@@ -40,10 +40,72 @@
       .arrow-right.white.nomarg::before {
         margin-left: 0px;
       }
+
+      @media only screen and (max-width:600px) {
+
+        .menu-news,
+        .none {
+          display: none !important;
+        }
+
+        .hero,
+        .edito,
+        .coeur,
+        .sorties,
+        .videos,
+        .dossiers,
+        .event {
+          padding: 0 22px;
+        }
+
+        .title-left {
+          padding-left: 0 !important;
+        }
+
+        .full-width {
+          width: 100% !important;
+          max-width: 100%;
+        }
+
+        .medium-width {
+          width: 50% !important;
+          max-width: 50%;
+        }
+
+        .two-column {
+          width: 44% !important;
+          max-width: 44%;
+        }
+
+        .spacer-product {
+          width: 12% !important;
+          max-width: 12%;
+        }
+
+        .align-right {
+          text-align: -webkit-right !important;
+        }
+
+        table.mj-full-width-mobile {
+          width: 100% !important;
+        }
+
+        td.mj-full-width-mobile {
+          width: auto !important;
+        }
+      }
+
+      @media only screen and (max-width:500px) {
+
+        .two-column {
+          width: 40% !important;
+          max-width: 40%;
+        }
+      }
     </mj-style>
   </mj-head>
   <mj-body background-color="#F2F2F2" width="600px">
-    <mj-section background-color="#FFF" padding="0">
+    <mj-section background-color="#FFF" padding="0" css-class="menu-news">
       <mj-column>
 
         <mj-text font-size="12px" color="#001689" font-family="sofia-pro, Lato" font-weight="700" text-transform="uppercase" align="center" line-height="17px" padding="18px 0 18px">
@@ -81,7 +143,7 @@
 
       </mj-column>
     </mj-section>
-    <mj-section background-color="#001689" padding="0">
+    <mj-section background-color="#001689" padding="0" css-class="hero">
       <mj-column>
 
         <mj-image width="560px" src="./assets/img/Header_NL_generique.png" padding="0"></mj-image>
@@ -93,14 +155,14 @@
         <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
-    <mj-section background-color="#FFF" text-align="left" padding="40px 0">
+    <mj-section background-color="#FFF" text-align="left" padding="40px 0" css-class="edito">
       <mj-column width="160px">
 
-        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase">Édito</mj-text>
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase" css-class="title-left">Édito</mj-text>
 
       </mj-column>
 
-      <mj-column width="430px">
+      <mj-column width="430px" css-class="full-width">
 
         <mj-text font-size="20px" color="#001689" font-family="Bodoni Moda, Playfair Display" font-weight="700" line-height="28px" padding="0" padding-bottom="15px">“ Chaque jour est une nouvelle page que l’on ouvre ”</mj-text>
 
@@ -113,19 +175,19 @@
 
       </mj-column>
 
-      <mj-column width="160px">
+      <mj-column width="160px" css-class="medium-width">
 
-        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase">Découvrir</mj-text>
-
-      </mj-column>
-
-      <mj-column width="137px">
-
-        <mj-image width="91px" height="91px" src="./assets/img/Jack_lang.png" padding="0" border-radius="200px" align="left"></mj-image>
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase" css-class="title-left">Découvrir</mj-text>
 
       </mj-column>
 
-      <mj-column width="293px">
+      <mj-column width="137px" css-class="medium-width">
+
+        <mj-image width="91px" height="91px" src="./assets/img/Jack_lang.png" padding="0" border-radius="200px" align="left" css-class="align-right"></mj-image>
+
+      </mj-column>
+
+      <mj-column width="293px" css-class="full-width">
 
         <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 20px 15px 0">
           <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Litterature</span>
@@ -151,14 +213,14 @@
         <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
-    <mj-section background-color="#FFF" text-align="left" padding="40px 0">
-      <mj-column width="160px">
+    <mj-section background-color="#FFF" text-align="left" padding="40px 0" css-class="coeur">
+      <mj-column width="160px" css-class="full-width">
 
-        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase">Coups de ❤️</mj-text>
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase" css-class="title-left">Coups de ❤️</mj-text>
 
       </mj-column>
 
-      <mj-column width="183px">
+      <mj-column width="183px" css-class="two-column">
 
         <mj-image width="183px" height="271px" src="./assets/img/GeorgeSand.png" padding="0" align="left"></mj-image>
 
@@ -179,11 +241,11 @@
 
       </mj-column>
 
-      <mj-column width="46px">
+      <mj-column width="46px" css-class="spacer-product">
 
       </mj-column>
 
-      <mj-column width="183px">
+      <mj-column width="183px" css-class="two-column">
 
         <mj-image width="183px" height="271px" src="./assets/img/caseycep.png" padding="0" align="left"></mj-image>
 
@@ -210,14 +272,14 @@
         <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
-    <mj-section background-color="#FFF" text-align="left" padding="40px 0">
-      <mj-column width="160px">
+    <mj-section background-color="#FFF" text-align="left" padding="40px 0" css-class="sorties">
+      <mj-column width="160px" css-class="full-width">
 
-        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase">Dernières sorties</mj-text>
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase" css-class="title-left">Dernières sorties</mj-text>
 
       </mj-column>
 
-      <mj-column width="412px">
+      <mj-column width="412px" css-class="full-width">
 
         <mj-table padding="0">
 
@@ -325,14 +387,14 @@
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#001689" text-align="left" padding="40px 0">
-      <mj-column width="160px">
+    <mj-section background-color="#001689" text-align="left" padding="40px 0" css-class="videos">
+      <mj-column width="160px" css-class="full-width">
 
-        <mj-text font-size="18px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase">VIDÉOS ET PODCASTS</mj-text>
+        <mj-text font-size="18px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase" css-class="title-left">VIDÉOS ET PODCASTS</mj-text>
 
       </mj-column>
 
-      <mj-column width="412px">
+      <mj-column width="412px" css-class="full-width">
 
         <mj-image src="./assets/img/Video_1.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
 
@@ -345,7 +407,7 @@
 
         <mj-text font-size="14px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0">Guillaume Meurice nous présente son ouvrage “le roi n’avait pas ri” aux éditions Lattes avec Marine Chambon.</mj-text>
 
-        <mj-divider border-width="1px" border-style="solid" border-color="#F2F2F2" padding="40px 0" />
+        <mj-divider border-width="1px" border-style="solid" border-color="rgba(255, 255, 255, 0.4)" padding="40px 0" />
 
         <mj-image src="./assets/img/Video_2.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
 
@@ -368,14 +430,14 @@
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#FFF" text-align="left" padding="40px 0">
-      <mj-column width="160px">
+    <mj-section background-color="#FFF" text-align="left" padding="40px 0" css-class="dossiers">
+      <mj-column width="160px" css-class="full-width">
 
-        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase">Les dossiers</mj-text>
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase" css-class="title-left">Les dossiers</mj-text>
 
       </mj-column>
 
-      <mj-column width="412px">
+      <mj-column width="412px" css-class="full-width">
 
         <mj-image src="./assets/img/book.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
 
@@ -413,22 +475,20 @@
 
     </mj-section>
 
-
-
     <mj-section padding="0">
       <mj-column>
         <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#FFF" text-align="left" padding="40px 0">
-      <mj-column width="160px">
+    <mj-section background-color="#FFF" text-align="left" padding="40px 0" css-class="event">
+      <mj-column width="160px" css-class="full-width">
 
-        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" padding-right="0" text-transform="uppercase">Prochains événements</mj-text>
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" padding-right="0" text-transform="uppercase" css-class="title-left">Prochains événements</mj-text>
 
       </mj-column>
 
-      <mj-column width="412px">
+      <mj-column width="412px" css-class="full-width">
 
         <mj-image src="./assets/img/laprincesseaupetitmoi.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
 
@@ -484,7 +544,6 @@
 
     </mj-section>
 
-
     <mj-section padding="0">
       <mj-column>
         <mj-spacer height="20px" />
@@ -494,7 +553,7 @@
     <mj-section background-color="#272727" text-align="left" padding="40px 40px 20px">
       <mj-column width="91px">
 
-        <mj-image src="./assets/img/Logo_mollat.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
+        <mj-image src="./assets/img/Logo_mollat.png" padding="0" align="left"></mj-image>
 
       </mj-column>
 
