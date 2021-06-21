@@ -146,7 +146,7 @@
     <mj-section background-color="#001689" padding="0" css-class="hero">
       <mj-column>
 
-        <mj-image width="560px" src="./assets/img/Header_NL_generique.png" padding="0"></mj-image>
+        <mj-image width="560px" src="./assets/img/header_nl_generique.png" padding="0"></mj-image>
 
       </mj-column>
     </mj-section>
