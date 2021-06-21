@@ -110,32 +110,32 @@
 
         <mj-text font-size="12px" color="#001689" font-family="sofia-pro, Lato" font-weight="700" text-transform="uppercase" align="center" line-height="17px" padding="18px 0 18px">
           <span>
-            <a class="soundcloud" href="#" style="color: #001689; text-decoration: none; margin-right: 22px">
+            <a class="" href="#" style="color: #001689; text-decoration: none; margin-right: 22px">
               Découvrir
             </a>
           </span>
           <span>
-            <a class="facebook" href="#" style="color: #001689; text-decoration: none; margin-right: 22px">
+            <a class="" href="#" style="color: #001689; text-decoration: none; margin-right: 22px">
               Coups de ❤️
             </a>
           </span>
           <span>
-            <a class="youtube" href="#" style="color: #001689; text-decoration: none; margin-right: 22px">
+            <a class="" href="#" style="color: #001689; text-decoration: none; margin-right: 22px">
               Dernières sorties
             </a>
           </span>
           <span>
-            <a class="twitter" href="#" style="color: #001689; text-decoration: none; margin-right: 22px">
+            <a class="" href="#" style="color: #001689; text-decoration: none; margin-right: 22px">
               Dossiers
             </a>
           </span>
           <span>
-            <a class="instagram" href="#" style="color: #001689; text-decoration: none; margin-right: 22px;">
+            <a class="" href="#" style="color: #001689; text-decoration: none; margin-right: 22px;">
               ÉVÈNEMENTS
             </a>
           </span>
           <span>
-            <a class="instagram" href="#" style="color: #001689; text-decoration: none;">
+            <a class="" href="#" style="color: #001689; text-decoration: none;">
               Vidéo
             </a>
           </span>

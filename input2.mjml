@@ -1,0 +1,467 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Bodoni Moda" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&display=swap" />
+
+    <mj-style>
+      @import url("https://p.typekit.net/p.css?s=1&k=jej0nju&ht=tk&f=24539.24547&a=33526715&app=typekit&e=css");
+
+      @font-face {
+        font-family: "sofia-pro";
+        src: url("https://use.typekit.net/af/09d302/00000000000000007735a14e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"), url("https://use.typekit.net/af/09d302/00000000000000007735a14e/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"), url("https://use.typekit.net/af/09d302/00000000000000007735a14e/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+        font-display: auto;
+        font-style: normal;
+        font-weight: 700;
+      }
+
+      @font-face {
+        font-family: "sofia-pro";
+        src: url("https://use.typekit.net/af/5e6988/00000000000000007735a163/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/5e6988/00000000000000007735a163/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/5e6988/00000000000000007735a163/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+        font-display: auto;
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      .arrow-right::before {
+        content: '';
+        display: inline-block;
+        height: 9px;
+        width: 13px;
+        background-image: url('./assets2/img/arrow_blue.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+
+      }
+
+      .arrow-right.white::before {
+        background-image: url('./assets2/img/arrow_white.svg');
+        margin-left: 10px;
+      }
+
+      .arrow-right.white.nomarg::before {
+        margin-left: 0px;
+      }
+
+      @media only screen and (max-width:600px) {
+
+        .menu-news,
+        .none {
+          display: none !important;
+        }
+
+        .hero,
+        .edito,
+        .coeur,
+        .sorties,
+        .videos,
+        .dossiers,
+        .event {
+          padding: 0 22px;
+        }
+
+        .title-left {
+          padding-left: 0 !important;
+        }
+
+        .full-width {
+          width: 100% !important;
+          max-width: 100%;
+        }
+
+        .medium-width {
+          width: 50% !important;
+          max-width: 50%;
+        }
+
+        .two-column {
+          width: 44% !important;
+          max-width: 44%;
+        }
+
+        .spacer-product {
+          width: 12% !important;
+          max-width: 12%;
+        }
+
+        .align-right {
+          text-align: -webkit-right !important;
+        }
+
+        table.mj-full-width-mobile {
+          width: 100% !important;
+        }
+
+        td.mj-full-width-mobile {
+          width: auto !important;
+        }
+      }
+
+      @media only screen and (max-width:500px) {
+
+        .two-column {
+          width: 40% !important;
+          max-width: 40%;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#F2F2F2" width="600px">
+    <mj-section background-color="#FFF" padding="0" css-class="menu-news">
+      <mj-column>
+
+        <mj-text font-size="12px" color="#001689" font-family="sofia-pro, Lato" font-weight="700" text-transform="uppercase" align="center" line-height="17px" padding="18px 0 18px">
+          <span>
+            <a class="" href="#" style="color: #001689; text-decoration: none; margin-right: 22px">
+              Station ausone
+            </a>
+          </span>
+          <span>
+            <a class="" href="#" style="color: #001689; text-decoration: none; margin-right: 22px">
+              Dans la librairie
+            </a>
+          </span>
+          <span>
+            <a class="" href="#" style="color: #001689; text-decoration: none; margin-right: 22px">
+              Visio
+            </a>
+          </span>
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#001689" padding="0" css-class="hero">
+      <mj-column>
+
+        <mj-image width="560px" src="./assets2/img/headerevent.png" padding="0"></mj-image>
+
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFF" text-align="left" padding="40px 0" css-class="dossiers">
+      <mj-column width="100%" css-class="full-width">
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase" css-class="title-left">Station Ausone</mj-text>
+
+      </mj-column>
+
+      <mj-column width="140px" css-class="full-width">
+
+        <mj-text font-size="15px" color="#28B89F" font-family="sofia-pro, Lato" font-weight="500" line-height="23px" padding-top="0" css-class="title-left">Dédicace</mj-text>
+
+      </mj-column>
+
+      <mj-column width="412px" css-class="full-width">
+
+        <mj-image src="./assets2/img/01.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
+
+        <mj-text font-size="12px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="14px" padding="11px 0 5px">
+          <span style="font-weight: 800; text-transform: uppercase; color: #28B89F">
+            16 juin
+          </span>
+          | Station Ausone
+        </mj-text>
+
+        <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="5px 0 9px">
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Dédicace</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Bandes dessinées</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">BD adulte</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Bandes dessinées - Comics - Mangas</span>
+        </mj-text>
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 10px">Dédicace d'Olivier Deloye</mj-text>
+
+        <mj-text font-size="14px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0 0 8px">Venez rencontrer l'illustrateur Olivier Deloye lors d'une séance de dédicace de la bande dessinée "O Verlaine !" parue aux éditions Steinkis.</mj-text>
+
+        <mj-button font-family="sofia-pro, Lato" color="#001689" background-color="transparent" align="left" inner-padding="0" padding="0 0 40px" font-weight="600" font-size="16px" text-decoration="underline" href="">
+          En savoir plus &#8594;
+        </mj-button>
+      </mj-column>
+
+      <mj-column width="140px" css-class="full-width">
+
+        <mj-text font-size="15px" color="#28B89F" font-family="sofia-pro, Lato" font-weight="500" line-height="23px" padding-top="0" css-class="title-left">En public</mj-text>
+
+      </mj-column>
+
+      <mj-column width="412px" css-class="full-width">
+
+        <mj-image src="./assets2/img/01.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
+
+        <mj-text font-size="12px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="14px" padding="11px 0 5px">
+          <span style="font-weight: 800; text-transform: uppercase; color: #28B89F">
+            17 juin
+          </span>
+          | Station Ausone
+        </mj-text>
+
+        <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="5px 0 9px">
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Rencontre</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Conférence</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Littérature</span>
+        </mj-text>
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 10px">Rencontre avec Frédéric Beigbedder & Nicolas Espitalier</mj-text>
+
+        <mj-text font-size="14px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0 0 8px">Venez rencontrer Frédéric Beigbeder et Nicolas Espitalier à l'occasion de la sortie de leurs ouvrages respectifs "Bibliothèque de survie" (Éditions de l'Observatoire) et "Vertige coquelicot" (Éditions Herodios).</mj-text>
+
+        <mj-button font-family="sofia-pro, Lato" color="#001689" background-color="transparent" align="left" inner-padding="0" padding="0 0 2 0px" font-weight="600" font-size="16px" text-decoration="underline" href="">
+          En savoir plus &#8594;
+        </mj-button>
+      </mj-column>
+
+    </mj-section>
+
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FC3367" text-align="left" padding="40px 0" css-class="dossiers">
+      <mj-column width="100%" css-class="full-width">
+
+        <mj-text font-size="18px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase" css-class="title-left">Station Ausone</mj-text>
+
+      </mj-column>
+
+      <mj-column width="140px" css-class="full-width">
+
+        <mj-text font-size="15px" color="#FFF" font-family="sofia-pro, Lato" font-weight="500" line-height="23px" padding-top="0" css-class="title-left">Dédicace</mj-text>
+
+      </mj-column>
+
+      <mj-column width="412px" css-class="full-width">
+
+        <mj-image src="./assets2/img/01.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
+
+        <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" line-height="14px" padding="11px 0 5px">
+          <span style="font-weight: 800; text-transform: uppercase; color: #FFF">
+            16 juin
+          </span>
+          | Station Ausone
+        </mj-text>
+
+        <mj-text font-size="12px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="5px 0 9px">
+          <span style="display: inline-block; background: #FFF; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Dédicace</span>
+          <span style="display: inline-block; background: #FFF; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Bandes dessinées</span>
+          <span style="display: inline-block; background: #FFF; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">BD adulte</span>
+          <span style="display: inline-block; background: #FFF; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Bandes dessinées - Comics - Mangas</span>
+        </mj-text>
+
+        <mj-text font-size="18px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 10px">Dédicace d'Olivier Deloye</mj-text>
+
+        <mj-text font-size="14px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0 0 8px">Venez rencontrer l'illustrateur Olivier Deloye lors d'une séance de dédicace de la bande dessinée "O Verlaine !" parue aux éditions Steinkis.</mj-text>
+
+        <mj-button font-family="sofia-pro, Lato" color="#FFF" background-color="transparent" align="left" inner-padding="0" padding="0 0 40px" font-weight="600" font-size="16px" text-decoration="underline" href="">
+          En savoir plus &#8594;
+        </mj-button>
+      </mj-column>
+
+      <mj-column width="140px" css-class="full-width">
+
+        <mj-text font-size="15px" color="#FFF" font-family="sofia-pro, Lato" font-weight="500" line-height="23px" padding-top="0" css-class="title-left">En public</mj-text>
+
+      </mj-column>
+
+      <mj-column width="412px" css-class="full-width">
+
+        <mj-image src="./assets2/img/01.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
+
+        <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" line-height="14px" padding="11px 0 5px">
+          <span style="font-weight: 800; text-transform: uppercase; color: #FFF">
+            17 juin
+          </span>
+          | Station Ausone
+        </mj-text>
+
+        <mj-text font-size="12px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="5px 0 9px">
+          <span style="display: inline-block; background: #FFF; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Rencontre</span>
+          <span style="display: inline-block; background: #FFF; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Conférence</span>
+          <span style="display: inline-block; background: #FFF; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Littérature</span>
+        </mj-text>
+
+        <mj-text font-size="18px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 10px">Rencontre avec Frédéric Beigbedder & Nicolas Espitalier</mj-text>
+
+        <mj-text font-size="14px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0 0 8px">Venez rencontrer Frédéric Beigbeder et Nicolas Espitalier à l'occasion de la sortie de leurs ouvrages respectifs "Bibliothèque de survie" (Éditions de l'Observatoire) et "Vertige coquelicot" (Éditions Herodios).</mj-text>
+
+        <mj-button font-family="sofia-pro, Lato" color="#FFF" background-color="transparent" align="left" inner-padding="0" padding="0 0 20px" font-weight="600" font-size="16px" text-decoration="underline" href="">
+          En savoir plus &#8594;
+        </mj-button>
+      </mj-column>
+
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFF" text-align="left" padding="40px 0" css-class="event">
+      <mj-column width="160px" css-class="full-width">
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" padding-right="0" text-transform="uppercase" css-class="title-left">En ligne</mj-text>
+
+      </mj-column>
+
+      <mj-column width="412px" css-class="full-width">
+
+        <mj-image src="./assets2/img/05.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
+
+        <mj-text font-size="12px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="14px" padding="11px 0 5px">
+          <span style="font-weight: 800; text-transform: uppercase; color: #28B89F">
+            18 juin
+          </span>
+          | Rendez vous sur notre page Youtube
+        </mj-text>
+
+        <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="5px 0 9px">
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Interview</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Economie</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Livre</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Economie internationale - Mondialisation</span>
+        </mj-text>
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 10px">Evénement en ligne avec Phillipe Dessertine</mj-text>
+
+        <mj-text font-size="14px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0 0 8px">Assistez à la rencontre en ligne avec Philippe Dessertine autour de son ouvrage "Le grand basculement" paru aux éditions Robert Laffont.</mj-text>
+
+        <mj-button font-family="sofia-pro, Lato" color="#001689" background-color="transparent" align="left" inner-padding="0" padding="0 0 40px" font-weight="600" font-size="16px" text-decoration="underline" href="">
+          En savoir plus &#8594;
+        </mj-button>
+
+        <mj-image src="./assets2/img/06.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
+
+        <mj-text font-size="12px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="14px" padding="11px 0 5px">
+          <span style="font-weight: 800; text-transform: uppercase; color: #28B89F">
+            18 juin
+          </span>
+          | Rendez vous sur notre page Youtube
+        </mj-text>
+
+        <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="5px 0 9px">
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Cinéma</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Monographie</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Arts</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Cinéma - Histoire et techniques</span>
+        </mj-text>
+
+        <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 10px">Evénement en ligne avec Jean-Michel Frodon</mj-text>
+
+        <mj-text font-size="14px" color="#000" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0 0 8px">Assistez à la rencontre en ligne avec Jean-Michel Frodon autour de son ouvrage "Abbas Kiarostami : l'oeuvre ouverte", co-écrit avec Agnès Devictor et publié aux éditions Gallimard.</mj-text>
+
+        <mj-button font-family="sofia-pro, Lato" color="#001689" background-color="transparent" align="left" inner-padding="0" padding="0 0 40px" font-weight="600" font-size="16px" text-decoration="underline" href="">
+          En savoir plus &#8594;
+        </mj-button>
+
+      </mj-column>
+
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#001689" text-align="left" padding="40px 0" css-class="videos">
+      <mj-column width="160px" css-class="full-width">
+
+        <mj-text font-size="18px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="28px" padding-top="0" text-transform="uppercase" css-class="title-left">VIDÉOS ET PODCASTS</mj-text>
+
+      </mj-column>
+
+      <mj-column width="412px" css-class="full-width">
+
+        <mj-image src="./assets2/img/Video_1.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
+
+        <mj-text font-size="18px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="20px 0 15px">Guillaume Meurice | Le roi n’avait pas ri</mj-text>
+
+        <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 9px">
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Humour</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Histoire</span>
+        </mj-text>
+
+        <mj-text font-size="14px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0">Guillaume Meurice nous présente son ouvrage “le roi n’avait pas ri” aux éditions Lattes avec Marine Chambon.</mj-text>
+
+        <mj-divider border-width="1px" border-style="solid" border-color="rgba(255, 255, 255, 0.4)" padding="40px 0" />
+
+        <mj-image src="./assets2/img/Video_2.png" padding="0" align="left" fluid-on-mobile="true"></mj-image>
+
+        <mj-text font-size="18px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="20px 0 15px">Guillaume Meurice | Le roi n’avait pas ri</mj-text>
+
+        <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 9px">
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Humour</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Histoire</span>
+        </mj-text>
+
+        <mj-text font-size="14px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" line-height="21px" padding="0">Guillaume Meurice nous présente son ouvrage “le roi n’avait pas ri” aux éditions Lattes avec Marine Chambon.</mj-text>
+
+      </mj-column>
+
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-spacer height="20px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#272727" text-align="left" padding="40px 40px 20px">
+      <mj-column width="91px">
+
+        <mj-image src="./assets2/img/Logo_mollat.png" padding="0" align="left"></mj-image>
+
+      </mj-column>
+
+      <mj-column width="429px" vertical-align="bottom">
+
+        <mj-text font-size="11px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" align="right" line-height="17px" padding="0 0 5px">
+          <span>
+            <a class="soundcloud" href="#" style="text-decoration: none; margin-right: 17px">
+              <img src="./assets2/img/soundcloud.png" alt="Logo Soundcloud" />
+            </a>
+          </span>
+          <span>
+            <a class="facebook" href="#" style="text-decoration: none; margin-right: 17px">
+              <img src="./assets2/img/facebook.png" alt="Logo Soundcloud" />
+            </a>
+          </span>
+          <span>
+            <a class="youtube" href="#" style="text-decoration: none; margin-right: 17px">
+              <img src="./assets2/img/youtube.png" alt="Logo Soundcloud" />
+            </a>
+          </span>
+          <span>
+            <a class="twitter" href="#" style="text-decoration: none; margin-right: 17px">
+              <img src="./assets2/img/twitter.png" alt="Logo Soundcloud" />
+            </a>
+          </span>
+          <span>
+            <a class="instagram" href="#" style="text-decoration: none;">
+              <img src="./assets2/img/instagram.png" alt="Logo Soundcloud" />
+            </a>
+          </span>
+        </mj-text>
+
+        <mj-text font-size="11px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" align="right" line-height="17px" padding="0">Copyright © 2021 - Mollat, tous droits réservés</mj-text>
+
+      </mj-column>
+
+      <mj-column width="100%">
+
+        <mj-divider border-width="1px" border-style="solid" border-color="rgba(255, 255, 255, 0.4)" padding="40px 0 15px" />
+
+        <mj-text font-size="11px" color="#FFF" font-family="sofia-pro, Lato" font-weight="400" align="center" line-height="17px" padding="0">Copyright © 2021 - Mollat, tous droits réservés</mj-text>
+
+      </mj-column>
+
+
+    </mj-section>
+  </mj-body>
+</mjml>

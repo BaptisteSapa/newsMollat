@@ -9,7 +9,8 @@
     "lint:fix": "eslint . --fix",
     "postinstall": "lerna bootstrap",
     "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\"",
-    "output": "mjml input.mjml -o output.html"
+    "output": "mjml input.mjml -o output.html",
+    "output2": "mjml input2.mjml -o output2.html"
   },
   "workspaces": [
     "packages/*"
