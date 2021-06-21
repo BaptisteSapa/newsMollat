@@ -222,7 +222,7 @@
 
       <mj-column width="183px" css-class="two-column">
 
-        <mj-image width="183px" height="271px" src="./assets/img/GeorgeSand.png" padding="0" align="left"></mj-image>
+        <mj-image width="183px" src="./assets/img/GeorgeSand.png" padding="0" align="left"></mj-image>
 
         <mj-text font-size="16px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0" padding-top="13px">George Sand, Fille du siècle</mj-text>
 
@@ -247,7 +247,7 @@
 
       <mj-column width="183px" css-class="two-column">
 
-        <mj-image width="183px" height="271px" src="./assets/img/caseycep.png" padding="0" align="left"></mj-image>
+        <mj-image width="183px" src="./assets/img/caseycep.png" padding="0" align="left"></mj-image>
 
         <mj-text font-size="16px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0" padding-top="13px">Les heures furieuses</mj-text>
 
