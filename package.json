@@ -10,7 +10,8 @@
     "postinstall": "lerna bootstrap",
     "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\"",
     "output": "mjml input.mjml -o output.html",
-    "output2": "mjml input2.mjml -o output2.html"
+    "output2": "mjml input2.mjml -o output2.html",
+    "output3": "mjml input3.mjml -o output3.html"
   },
   "workspaces": [
     "packages/*"
