@@ -191,7 +191,7 @@
 
         <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 11px">
           <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Litterature</span>
-          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Second tag</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Arts</span>
         </mj-text>
 
         <mj-text font-size="20px" color="#001689" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 15px">25,50 €</mj-text>
@@ -216,7 +216,7 @@
 
         <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 11px">
           <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Histoire</span>
-          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Second tag</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Roman</span>
           <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Jeunesse</span>
         </mj-text>
 

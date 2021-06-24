@@ -166,7 +166,9 @@
 
         <mj-text font-size="20px" color="#001689" font-family="Bodoni Moda, Playfair Display" font-weight="700" line-height="28px" padding="0" padding-bottom="15px">“ Chaque jour est une nouvelle page que l’on ouvre ”</mj-text>
 
-        <mj-text font-size="14px" color="#000" font-family="sofia-pro, Lato" font-weight="500" line-height="20px" padding="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </mj-text>
+        <mj-text font-size="14px" color="#000" font-family="sofia-pro, Lato" font-weight="500" line-height="20px" padding="0">Cette semaine, retrouvez les dernières nouveautés disponibles et nos coups de cœur du moment ! Découvrez aussi la programmation des évènements à venir en librairie, à la station Ausone ou en ligne. Vous n'avez pas pu assister à l'une de nos conférences ? Visionnez la rediffusion à la fin de notre Newsletter.
+
+        </mj-text>
 
       </mj-column>
       <mj-column width="100%" padding="40px 0">
@@ -191,7 +193,7 @@
 
         <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 20px 15px 0">
           <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Litterature</span>
-          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Second tag</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Sciences humaines - Histoire</span>
         </mj-text>
 
         <mj-text font-size="16px" color="#000" font-family="sofia-pro, Lato" font-weight="600" line-height="22px" padding="0 20px 15px 0">
@@ -230,7 +232,7 @@
 
         <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 11px">
           <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Litterature</span>
-          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Second tag</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Arts</span>
         </mj-text>
 
         <mj-text font-size="20px" color="#001689" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 15px">25,50 €</mj-text>
@@ -255,7 +257,7 @@
 
         <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 11px">
           <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Histoire</span>
-          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Second tag</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Roman</span>
           <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Jeunesse</span>
         </mj-text>
 
@@ -296,11 +298,10 @@
               </div>
               <div style="font-family: 'sofia-pro', Lato; font-size: 12px; line-height: 20px; font-weight: 700; margin-bottom: 11px; color: #FFF">
                 <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Litterature</span>
-                <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Second
-                  tag</span>
+                <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Sciences humaines - Histoire</span>
               </div>
               <div style="font-family: 'sofia-pro', Lato; font-size: 14px; line-height: 21px; font-weight: 400; margin-bottom: 20px;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+                Renié par son père, le duc de Hastings, à cause de son bégaiement, Simon a grandi solitaire et assoiffé de revanche. Lorsqu'il revient en Angleterre à la mort du duc, il est assailli par des mères prêtes à tout pour marier leurs filles...
               </div>
               <div style="clear: both;">
                 <div style="float: left; font-family: 'sofia-pro', Lato; color: #001689; font-size: 20px; line-height: 23px; font-weight: 700; margin-bottom: 20px;">
@@ -443,7 +444,7 @@
 
         <mj-text font-size="12px" color="#FFF" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="20px 0 9px">
           <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Littérature</span>
-          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Second tag</span>
+          <span style="display: inline-block; background: #28B89F; padding: 0px 10px 2px; border-radius: 50px; margin-right: 3px; margin-bottom: 5px">Envies</span>
         </mj-text>
 
         <mj-text font-size="18px" color="#000" font-family="sofia-pro, Lato" font-weight="700" line-height="20px" padding="0 0 15px">Nos envies pour 2021</mj-text>
